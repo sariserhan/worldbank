@@ -1,0 +1,25 @@
+Question A. Would you store data in databricks as delta or parquet format? Based on your choice, please explain why.
+Answer:
+    The choice depends on the specific needs and characteristics of your data processing workflows
+    but if I have to choose one because of simplicity and cost-effectiveness are prioritized,
+    and some other advanced features are unnecessary such as time travel and ACID transaction,
+    Parquet might be a good fit.
+
+Question B. Please explain the process of how you would optimize PySpark or SQL code to effectively use databricks spark cluster.
+Answer:
+    Cluster Sizing:
+        Properly size your cluster based on the volume of data and the complexity of your workload.
+        Monitor the cluster's performance and adjust the configuration as needed.
+    Auto-scaling:
+        Consider enabling auto-scaling to automatically adjust the number of worker nodes based on the workload.
+        This can help optimize resource utilization.
+    Optimal Partitioning:
+        Ensure that your data is partitioned optimally.
+        This includes choosing appropriate partition columns and sizes to avoid data skew and improve parallel processing.
+    Repartitioning:
+        Use the repartition or coalesce operations to adjust the number of partitions after certain transformations.
+        This can help balance the workload among the cluster nodes.
+    Caching:
+        Leverage caching for intermediate DataFrames that are reused in multiple stages.
+        Caching avoids recomputation and improves performance.
+

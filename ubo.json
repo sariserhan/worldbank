@@ -1,0 +1,76 @@
+{
+  "api_version": "0.4",
+  "results": {
+    "companies": [
+      {
+        "company": {
+          "name": "DAVID KENDRICK LIMITED",
+          "company_number": "07178886",
+          "jurisdiction_code": "gb",
+          "incorporation_date": "2010-03-04",
+          "dissolution_date": "2021-03-16",
+          "company_type": "Private Limited Company",
+          "registry_url": "https://beta.companieshouse.gov.uk/company/07178886",
+          "branch": null,
+          "branch_status": null,
+          "inactive": true,
+          "current_status": "Dissolved",
+          "created_at": "2010-10-22T00:28:44+00:00",
+          "updated_at": "2021-04-04T10:28:59+00:00",
+          "retrieved_at": "2021-04-04T10:28:59+00:00",
+          "opencorporates_url": "https://opencorporates.com/companies/gb/07178886",
+          "previous_names": [],
+          "source": {
+            "publisher": "UK Companies House",
+            "url": "http://xmlgw.companieshouse.gov.uk/",
+            "terms": "UK Crown Copyright",
+            "retrieved_at": "2021-04-04T10:28:59+00:00"
+          },
+          "registered_address": {
+            "street_address": "Nursey Bungalow\nViney Hill",
+            "locality": "Lydney",
+            "region": "Gloucestershire",
+            "postal_code": "GL15 4ND",
+            "country": "United Kingdom"
+          },
+          "registered_address_in_full": "Nursey Bungalow\nViney Hill, Lydney, Gloucestershire, GL15 4ND",
+          "industry_codes": [
+            {
+              "industry_code": {
+                "code": "86.90",
+                "description": "Other human health activities",
+                "code_scheme_id": "uk_sic_2007",
+                "code_scheme_name": "UK SIC Classification 2007",
+                "uid": "uk_sic_2007-8690"
+              }
+            },
+            {
+              "industry_code": {
+                "code": "86.90",
+                "description": "Other human health activities",
+                "code_scheme_id": "eu_nace_2",
+                "code_scheme_name": "European Community NACE Rev 2",
+                "uid": "eu_nace_2-8690"
+              }
+            },
+            {
+              "industry_code": {
+                "code": "8690",
+                "description": "Other human health activities",
+                "code_scheme_id": "isic_4",
+                "code_scheme_name": "UN ISIC Rev 4",
+                "uid": "isic_4-8690"
+              }
+            }
+          ],
+          "restricted_for_marketing": null,
+          "native_company_number": null
+        }
+      }
+    ],
+    "page": 1,
+    "per_page": 30,
+    "total_pages": 1,
+    "total_count": 14
+  }
+}
